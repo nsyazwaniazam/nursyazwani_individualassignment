@@ -1,0 +1,519 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+h1
+    {
+        color:black;
+        text-align: center;
+        font-family: monospace;
+        text-indent: 3%;
+        text-decoration: underline;
+    }
+
+    
+
+    a
+        {
+            color:rgb(2, 2, 2);
+            text-decoration: none;
+            
+        }
+
+        body
+        { 
+            background-color: rgb(46, 42, 46); 
+            background-image: url(../image/bg.jpeg);
+            background-size:auto
+        }
+
+    .content
+       {
+            background-color:rgb(211, 200, 224);
+            width: 85%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            opacity: 0.85;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            border: 3px solid black;
+            border-radius: 30px;
+             
+       }
+
+       .ack
+       {
+            background-color:rgb(211, 200, 224);
+            float: right;
+            width: 85%;
+            height: 350px;
+            padding-top: 5px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            opacity: 0.85;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            border: 3px solid black;
+            border-radius: 30px;
+             
+       }
+       .thanks{
+        background-color:rgb(211, 200, 224);
+        text-align: center;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border: 3px solid black;
+        border-radius: 20px;
+       
+       }
+
+       
+
+       table,tr,td,th
+    {
+        border: 3px solid black;
+        border-collapse: collapse;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        
+
+    }
+    tr
+    {
+        background-color:rgb(139, 140, 142);
+        color: azure;
+
+    }
+    th
+    
+    {
+        background-color: rgb(114, 151, 151);
+        color: black;
+    }
+
+    tr:nth-child(even)
+    {
+      background-color:rgb(139, 140, 142);
+      color: azure;
+  
+    }
+        
+    /* Add a gray right border to all list items */
+    li {
+
+     border-left: 3px solid #bbb;
+
+    }
+
+    li:last-child {
+
+      border-right: none;
+
+    }
+
+
+
+    
+    .pro
+    
+    {
+       text-align: center;
+       padding-top: 20px;
+       padding-bottom: 20px;
+       background-color: bisque;
+       border: 20px solid lavender;
+       margin-left: 5cm;
+       margin-right: 5cm;
+       
+    }
+
+    .sliders
+        {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            background-color:rgb(211, 200, 224);
+            opacity: 0.85;
+            margin-left: 3cm;
+            margin-right: 2cm;
+        }   
+
+        .box1
+        {
+            width: 98%;
+            height: 300px;
+            float:left;
+            background-color:rgb(62, 62, 66);
+            border-radius: 30px;
+            margin: 10px;
+            padding-top: 20px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            border: 3px solid black;
+          
+
+        }
+
+
+        .boxcontent
+        {
+            color:blue;
+            
+        }
+
+        .contactbox
+        {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            width: 18.6%;
+            height: 100%;
+            float:right;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            align-items: center;
+            opacity: 60%;
+
+        }
+
+        ul.a{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(75, 72, 78);
+          }
+          
+          li {
+            float: right;
+          }
+          
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          li a:hover {
+            background-color: #e8d4d4;
+          }
+
+          ul.b {
+            list-style-type: square;
+          }
+          
+          li.c
+          {float: none }
+
+          .sl
+          {
+            background-color:rgb(62, 62, 66);
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            margin-left: 3cm;
+            margin-right: 3cm;
+
+          }
+
+          .diri
+          {
+           
+            width: 25%;
+            height: 0%;
+           
+          
+          }
+
+          .bio 
+          {
+            text-align: center;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 3.5cm;
+            margin-right:3.5cm;
+            background-color:rgb(165, 174, 186);
+            align-items: center;
+            border: 3px solid black;
+            border-radius: 30px;
+
+          }
+
+          .skill1
+          {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            background-color: rgb(91, 91, 88);
+            align-items: center;
+            text-align: center;
+            border: 3px solid black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: whitesmoke;
+          }
+
+          .skill2
+          {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            background-color: beige;
+            align-items: center;
+            text-align: center;
+            border: 3px solid black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+          }
+
+          .skill3
+          {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            background-color: rgb(91, 91, 88);
+            align-items: center;
+            text-align: center;
+            border: 3px solid black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: whitesmoke;
+          }
+
+          .skill4
+          {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 3cm;
+            margin-right: 3cm;
+            background-color: beige;
+            align-items: center;
+            text-align: center;
+            border: 3px solid black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+          }
+
+          .edu
+          {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 8cm;
+            margin-right: 8cm;
+            background-color:FFEBD8;
+
+          }
+
+
+
+  
+          .gal
+          {
+            width: 80%;
+            height: 500px;
+            float:left;
+            background-color: beige;
+            border-radius: 6px;
+            margin: 5px;
+            padding-top: 6px;
+            margin-left: 6px;
+            margin-right: 6px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            text-decoration-color: bisque;
+            
+
+
+          }
+
+          .product1
+          {
+            width: 80%;
+            height: 500px;
+            float:right;
+            background-color: beige;
+            border-radius: 10px;
+            margin: 10px;
+            padding-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            text-decoration-color: bisque;
+
+
+          }
+
+          .product2
+          {
+            width: 80%;
+            height: 500px;
+            float:left;
+            background-color: beige;
+            border-radius: 10px;
+            margin: 10px;
+            padding-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            text-decoration-color: bisque;
+
+
+          }
+
+        
+
+          .shak
+          {
+            width:98%;
+            height: 300px;
+            border-radius: 10px;
+            margin: 10px;
+            padding-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+           background-color: rgb(91, 91, 88);
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-style: italic;
+           color: whitesmoke;
+          
+          }
+
+          .introshak
+          {
+            width:98%;
+            height: 200px;
+            border-radius: 10px;
+            margin: 10px;
+            padding-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+           background-color: rgb(91, 91, 88);
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-style: italic;
+           color: whitesmoke;
+          
+          }
+
+          .CONT{
+            font-size: medium;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            background-color: rgb(169, 167, 165);
+            border: 3px solid black;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 10px;
+
+          }
+
+          .location{
+            font-size: medium;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            background-color: rgb(218, 218, 218);
+            border: 3px solid black;
+            margin-left: 300px;
+            margin-right: 300px;
+            border-radius: 10px;
+
+          }
+          
+          .DUMP{
+
+    
+            text-align: center;
+            padding-top:30px;
+            padding-bottom: 20px;
+            background-color: rgb(169, 167, 165);
+            border: 3px solid black;
+            margin-left: 550px;
+            margin-right: 550px;
+            border-radius: 10px;
+            
+  
+          }
+
+          .award
+          {
+            width:98%;
+            height: 60px;
+            border-radius: 10px;
+            margin: 10px;
+            text-align: center;
+            background-color: rgb(91, 91, 88);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            color: whitesmoke;
+            border: 3px solid black;
+          
+          }
+
+          .award1
+          {
+            width:98%;
+            height: 750px;
+            border-radius: 10px;
+            margin: 10px;
+            padding-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+           background-color: rgb(91, 91, 88);
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-style: italic;
+           color: whitesmoke;
+           border: 3px solid black;
+          
+          }
+
+          .award2
+          {
+            width:98%;
+            height: 750px;
+            border-radius: 10px;
+            margin: 10px;
+            padding-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+           background-color: rgb(91, 91, 88);
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-style: italic;
+           color: whitesmoke;
+           border: 3px solid black;
+          
+          }
+          
